@@ -2,11 +2,77 @@
 <html lang="sl">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Praznični koncert Pepel in kri in Joker Out v Velenju.">
+        <title>Praznični koncert | Velenje praznuje</title>
         <link rel="stylesheet" href="stil.css">
     </head>
     <body>
+        <header class="site-header">
+            <a class="logo" href="#domov" aria-label="Velenje praznuje - domov">Velenje praznuje</a>
+            <nav aria-label="Glavna navigacija">
+                <ul>
+                    <li><a href="#dogodek">O dogodku</a></li>
+                    <li><a href="#program">Program</a></li>
+                    <li><a href="#lokacija">Lokacija</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <section class="hero" id="domov" aria-labelledby="page-title">
+            <div class="hero-copy">
+                <p>Praznični koncert v Velenju</p>
+                <h1 id="page-title">Pepel in kri<br>Joker Out</h1>
+                <p>19. september 2026 · Vista, Velenje</p>
+            </div>
+            <img src="https://www.velenje-events.si/app/uploads/2026/08/08_13_Joker_out-Matic_Kremzar-2.jpg"
+                alt="Skupina Joker Out na odru" class="hero-image">
+        </section>
 
+        <div class="content-layout">
+            <main>
+                <section id="dogodek" aria-labelledby="event-title">
+                    <h2 id="event-title">Praznični koncert za vse generacije</h2>
+                    <p>Pred občinskim praznikom Mestne občine Velenje bodo na oder stopili tako mladi kot stari. Večer prinaša nastopa skupin Pepel in kri ter Joker Out.</p>
+                </section>
 
+                <section id="program" aria-labelledby="program-title">
+                    <h2 id="program-title">Program večera</h2>
+                    <ol>
+                        <li>
+                            <time datetime="2026-09-19T18:00">18.00</time>
+                            <h3>Pepel in kri</h3>
+                        </li>
+                        <li>
+                            <time datetime="2026-09-19T20:30">20.30</time>
+                            <h3>Joker Out</h3>
+                        </li>
+                    </ol>
+                </section>
+
+                <section id="lokacija" aria-labelledby="location-title">
+                    <h2 id="location-title">Lokacija</h2>
+                    <address>Vista, park z razgledom<br>Velenje</address>
+                </section>
+            </main>
+
+            <aside aria-labelledby="additional-info-title">
+                <h2 id="additional-info-title">Dodatne informacije</h2>
+                <dl>
+                    <dt>Datum</dt>
+                    <dd><time datetime="2026-09-19">19. september 2026</time></dd>
+                    <dt>Začetek programa</dt>
+                    <dd><time datetime="2026-09-19T18:00">Ob 18.00</time></dd>
+                    <dt>Organizatorji</dt>
+                    <dd>Mestna občina Velenje, Festival Velenje in PGD Šalek</dd>
+                </dl>
+                <p>Za hrano in pijačo bodo poskrbeli gostinci in Prostovoljno gasilsko društvo Šalek Velenje.</p>
+            </aside>
+        </div>
+
+        <footer class="site-footer">
+            <p>Velenje praznuje</p>
+            <a href="https://www.velenje.si/za-obcane/koledar-dogodkov/17644-praznicni-koncert-pepel-in-kri-joker-out-velenje-praznuje/">Več o dogodku na spletni strani Mestne občine Velenje</a>
+        </footer>
     </body>
-    </html>
+</html>
